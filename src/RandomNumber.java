@@ -16,6 +16,10 @@ public class RandomNumber {
         while (true) {
             System.out.println("Make Guess (between "+min+" and "+max+"): ");
             int guess = s.nextInt();
+            if (guess < min || guess > max) {
+                System.out.println("Please Enter a Valid Value.");
+                continue;
+            }
             if(guess == secret) {
                 System.out.println("You Win!! The secret is --> "+ secret);
                 break;
