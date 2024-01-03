@@ -29,7 +29,13 @@ public class ForLoop {
         ArrayList<Integer> friends3 = new ArrayList<Integer>(friends2);
 
         for (String friend : friends) {
-            System.out.println(friend+" is my friend.");
+            System.out.println(friend + " is my friend.");
+        }
+
+        for (int i = 0; i < 10; i++) {
+            for (int j = 3; j > 0; j--) {
+                System.out.println(i + "," + j);
+            }
         }
 
         Collections.sort(friends);
