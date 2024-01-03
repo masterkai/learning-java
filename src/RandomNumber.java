@@ -10,6 +10,6 @@ public class RandomNumber {
         int secret = random.nextInt((max - min)+min);
 
 
-        System.out.println("Random Number between 0 and 100: " + secret);
+        System.out.println("The Secret Number between 0 and 99 is --> " + secret);
     }
 }
