@@ -1,9 +1,8 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 
-public class Main3 {
+public class ForLoop {
     public static void main(String[] args) {
         // array of string
         //        String[] friends = {"france", "Mark", "Dino", "JavaScript"};

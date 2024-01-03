@@ -1,7 +1,6 @@
 import javax.swing.*;
-import java.util.Locale;
 
-public class Main2 {
+public class BMICalculator {
     public static void main(String[] args) {
         String vaccine = JOptionPane.showInputDialog("請輸入疫苗名稱（選項包含：AZ, BNT, Moderna, Jassen）");
         vaccine = vaccine.toLowerCase();
