@@ -22,5 +22,15 @@ public class Main {
         BigDecimal roundedNumber = bd.setScale(1, RoundingMode.HALF_UP);
         System.out.print("Yor BMI is：" + BMI);
         System.out.print("Yor BMI is：" + roundedNumber);
+
+        if ( BMI < 18.5) {
+            System.out.println("您屬於體重過輕");
+        } else if ( BMI>=18.5 && BMI < 24.0) {
+            System.out.println("您屬於正常範圍");
+        } else if(BMI < 30){
+            System.out.println("您屬於微胖");
+        } else {
+            System.out.println("您屬於異常");
+        }
     }
 }
