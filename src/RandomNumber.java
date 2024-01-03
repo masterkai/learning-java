@@ -19,6 +19,10 @@ public class RandomNumber {
             if(guess == secret) {
                 System.out.println("You Win!! The secret is --> "+ secret);
                 break;
+            } else if (guess < secret) {
+                min = guess;
+            } else {
+                max = guess;
             }
         }
     }
